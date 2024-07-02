@@ -1,0 +1,15 @@
+2024-07-02T06:24:05.487Z  INFO 3873 --- [loan-service] [main] c.e.myexample.MyexampleApplication       : Starting MyexampleApplication using Java 17.0.11 with PID 3873 (/home/dmgcp224/myexample/target/classes started by dmgcp224 in /home/dmgcp224/myexample)
+2024-07-02T06:24:05.490Z  INFO 3873 --- [loan-service] [main] c.e.myexample.MyexampleApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T06:24:06.984Z  INFO 3873 --- [loan-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T06:24:07.003Z  INFO 3873 --- [loan-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T06:24:07.004Z  INFO 3873 --- [loan-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T06:24:07.086Z  INFO 3873 --- [loan-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T06:24:07.087Z  INFO 3873 --- [loan-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1531 ms
+2024-07-02T06:24:07.815Z  INFO 3873 --- [loan-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-02T06:24:07.921Z  INFO 3873 --- [loan-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T06:24:07.946Z  INFO 3873 --- [loan-service] [main] c.e.myexample.MyexampleApplication       : Started MyexampleApplication in 2.983 seconds (process running for 3.348)
+2024-07-02T06:24:13.309Z  INFO 3873 --- [loan-service] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-02T06:24:13.310Z  INFO 3873 --- [loan-service] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-02T06:24:13.312Z  INFO 3873 --- [loan-service] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-02T06:24:20.838Z  INFO 3873 --- [loan-service] [http-nio-8080-exec-3] com.example.myexample.MyController       : called home  endpoint
+2024-07-02T06:24:24.896Z  INFO 3873 --- [loan-service] [http-nio-8080-exec-4] com.example.myexample.MyController       : called welcome endpoint
